@@ -8,7 +8,7 @@ function ToastProvider({ children }) {
   React.useEffect(() => {
     function handleKeyDown(event) {
       if (event.code === "Escape") {
-        setToasts([]);
+        setToastInformation([]);
       }
     }
 
