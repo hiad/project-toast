@@ -30,7 +30,7 @@ function ToastPlayground() {
         <img alt="Cute toast mascot" src="/toast.png" />
         <h1>Toast Playground</h1>
       </header>
-      <ToastShelf toastInformation={toastInformation} />
+      <ToastShelf />
       <div className={styles.controlsWrapper}>
         <form onSubmit={handleSubmit}>
           <div className={styles.row}>
